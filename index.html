@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hongliang Tech | Extrusion & Injection Screws and Barrels</title>
+  <meta name="description" content="Hongliang Tech manufactures single screw, twin screw and barrels/liners with bimetallic liners, SKD liners, alloy spray and hardfacing. PVC/CPVC/PP/PE/ABS. Lead time 30–45 days. Custom per drawing." />
+
+  <!-- Social preview -->
+  <meta property="og:title" content="Hongliang Tech" />
+  <meta property="og:description" content="Extrusion & injection screws and barrels. Custom per drawing. Lead time 30–45 days." />
+  <meta property="og:image" content="logo.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --ink:#0b1220;
+      --muted:#5b6475;
+      --line:#e7eaf0;
+      --card:#f6f8fb;
+      --brand:#0b3a7e;
+      --accent:#1e73ff;
+      --shadow:0 18px 50px rgba(11,18,32,.08);
+      --radius:18px;
+      --max:1120px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      color:var(--ink);
+      background:
+        radial-gradient(1100px 650px at 70% -10%, rgba(30,115,255,.10), transparent 60%),
+        radial-gradient(900px 560px at 10% 10%, rgba(11,58,126,.08), transparent 60%),
+        var(--bg);
+      line-height:1.55;
+    }
+    a{color:inherit; text-decoration:none}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px;}
+    .nav{
+      position:sticky; top:0; z-index:20;
+      background:rgba(255,255,255,.90);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .nav-inner{
+      max-width:var(--max); margin:0 auto; padding:14px 18px;
+      display:flex; align-items:center; justify-content:space-between; gap:14px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:10px;
+      min-width: 220px;
+    }
+    .brand img{
+      width:38px; height:38px; border-radius:12px; object-fit:cover;
+      border:1px solid var(--line);
+      background:#fff;
+    }
+    .brand b{display:block; font-size:14px; letter-spacing:.2px}
+    .brand small{display:block; color:var(--muted); font-size:12px; margin-top:2px}
+    .links{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+    .links a{
+      font-size:13px; color:var(--muted);
+      padding:8px 10px; border-radius:999px;
+    }
+    .links a:hover{background:var(--card); color:var(--ink)}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center; gap:8px;
+      padding:10px 14px;
+      border-radius:999px;
+      border:1px solid rgba(30,115,255,.25);
+      background:rgba(30,115,255,.10);
+      color:var(--ink);
+      font-size:13px; font-weight:600;
+      transition:.15s ease;
+      white-space:nowrap;
+    }
+    .btn:hover{transform: translateY(-1px); background:rgba(30,115,255,.14)}
+    .btn-solid{
+      border:1px solid var(--brand);
+      background: linear-gradient(135deg, var(--brand), var(--accent));
+      color:#fff;
+      box-shadow: 0 12px 30px rgba(30,115,255,.18);
+    }
+
+    header{padding:46px 0 16px;}
+    @media (max-width: 980px){ header{padding-top:28px;} }
+
+    .hero{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:16px;
+      align-items:stretch;
+    }
+    @media (max-width: 980px){ .hero{grid-template-columns:1fr;} }
+
+    .card{
+      background: rgba(255,255,255,.94);
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding:18px;
+    }
+    .soft{ background: var(--card); box-shadow:none; }
+
+    .kicker{
+      display:inline-flex; gap:10px; align-items:center;
+      font-size:12px; font-weight:600;
+      color:var(--brand);
+      background: rgba(11,58,126,.08);
+      border:1px solid rgba(11,58,126,.12);
+      padding:8px 10px; border-radius:999px;
+    }
+    h1{
+      font-size:40px; line-height:1.08;
+      margin:14px 0 10px;
+      letter-spacing:-0.6px;
+    }
+    @media (max-width: 560px){ h1{font-size:32px;} }
+    .sub{ margin:0 0 16px; color:var(--muted); font-size:15px; }
+
+    .meta{ display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
+    .pill{
+      font-size:12px;
+      color:var(--muted);
+      background:#fff;
+      border:1px solid var(--line);
+      padding:8px 10px;
+      border-radius:999px;
+    }
+    .hr{height:1px; background:var(--line); margin:14px 0;}
+
+    h2{font-size:18px; margin:0 0 10px; letter-spacing:-0.2px}
+    section{padding:14px 0;}
+    .twocol{display:grid; grid-template-columns: 1fr 1fr; gap:12px;}
+    @media (max-width: 860px){ .twocol{grid-template-columns:1fr;} }
+
+    .item{
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:14px;
+      background:#fff;
+    }
+    .item b{display:block; font-size:14px; margin-bottom:4px}
+    .item span{display:block; color:var(--muted); font-size:13px}
+    .mini{font-size:12px; color:var(--muted); margin-top:8px;}
+
+    /* Gallery (auto) */
+    .gallery-top{
+      display:flex; align-items:flex-end; justify-content:space-between;
+      gap:12px; flex-wrap:wrap;
+      margin-bottom:10px;
+    }
+    .gallery-note{
+      font-size:12px; color:var(--muted);
+      background:#fff; border:1px solid var(--line);
+      border-radius:999px; padding:8px 10px;
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:10px;
+    }
+    @media (max-width: 860px){ .gallery{grid-template-columns:1fr;} }
+
+    .shot{
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:16px;
+      overflow:hidden;
+      cursor:pointer;
+      transition:.15s ease;
+    }
+    .shot:hover{ transform: translateY(-1px); box-shadow: 0 14px 40px rgba(11,18,32,.10); }
+    .shot img{ width:100%; height:220px; object-fit:cover; display:block; background:#0b1220; }
+    .cap{ padding:10px 12px; font-size:13px; color:var(--muted); display:flex; justify-content:space-between; gap:8px; }
+    .cap b{ color:var(--ink); font-weight:600; font-size:13px; }
+    .cap small{ color:var(--muted); font-size:12px; }
+
+    /* Table (clean UK style) */
+    table.qtable{
+      width:100%;
+      border-collapse:collapse;
+      font-size:14px;
+      overflow:hidden;
+      border:1px solid var(--line);
+      border-radius:16px;
+    }
+    .qtable th, .qtable td{
+      padding:12px;
+      border-bottom:1px solid var(--line);
+      vertical-align:top;
+      text-align:left;
+    }
+    .qtable thead th{
+      background: var(--card);
+      font-size:12px;
+      color:var(--muted);
+      text-transform:uppercase;
+      letter-spacing:.6px;
+    }
+    .qtable tbody tr:last-child td{ border-bottom:none; }
+    .badge{
+      display:inline-flex;
+      align-items:center;
+      padding:6px 10px;
+      border-radius:999px;
+      border:1px solid rgba(30,115,255,.18);
+      background: rgba(30,115,255,.08);
+      color: var(--brand);
+      font-size:12px;
+      font-weight:600;
+    }
+
+    /* Lightbox */
+    .lb{
+      position:fixed; inset:0;
+      background: rgba(11,18,32,.75);
+      display:none;
+      align-items:center; justify-content:center;
+      padding:18px;
+      z-index:100;
+    }
+    .lb.open{display:flex;}
+    .lb-box{
+      max-width:min(980px, 96vw);
+      max-height:86vh;
+      background:#fff;
+      border-radius:18px;
+      overflow:hidden;
+      box-shadow: 0 30px 90px rgba(0,0,0,.35);
+    }
+    .lb-box img{
+      width:100%;
+      height:auto;
+      max-height:86vh;
+      object-fit:contain;
+      display:block;
+      background:#0b1220;
+    }
+    .lb-top{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:10px 12px;
+      border-bottom:1px solid var(--line);
+      background:#fff;
+    }
+    .lb-top b{font-size:13px;}
+    .x{
+      border:1px solid var(--line);
+      background:var(--card);
+      border-radius:12px;
+      padding:8px 10px;
+      cursor:pointer;
+      font-weight:700;
+    }
+
+    /* Form */
+    .form{display:grid; gap:10px;}
+    label{font-size:12px; color:var(--muted); font-weight:600}
+    input, textarea, select{
+      width:100%;
+      padding:11px 12px;
+      border-radius:14px;
+      border:1px solid var(--line);
+      background:#fff;
+      font-size:14px;
+      outline:none;
+    }
+    input:focus, textarea:focus, select:focus{
+      border-color: rgba(30,115,255,.55);
+      box-shadow: 0 0 0 4px rgba(30,115,255,.12);
+    }
+    textarea{min-height:120px; resize:vertical;}
+    .row2{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+    @media (max-width: 640px){ .row2{grid-template-columns:1fr;} }
+
+    footer{
+      padding:26px 0 36px;
+      color:var(--muted);
+      font-size:12px;
+    }
+    .foot{
+      display:flex; gap:10px; flex-wrap:wrap;
+      justify-content:space-between; align-items:center;
+      border-top:1px solid var(--line);
+      padding-top:16px;
+    }
+    .toast{
+      position:fixed; left:50%; bottom:20px; transform:translateX(-50%);
+      background:#0b1220; color:#fff;
+      padding:10px 12px; border-radius:14px;
+      font-size:13px;
+      display:none;
+      box-shadow: 0 18px 50px rgba(0,0,0,.25);
+      z-index:120;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <div class="nav-inner">
+      <div class="brand">
+        <img src="logo.jpg" alt="Hongliang Tech logo" />
+        <div>
+          <b>Hongliang Tech</b>
+          <small>Extrusion & Injection · Screws & Barrels</small>
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="#products">Products</a>
+        <a href="#quality">Quality</a>
+        <a href="#oem">OEM & Uses</a>
+        <a href="#gallery">Gallery</a>
+        <a class="btn btn-solid" href="#quote">Get a Quote</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <header>
+      <div class="hero">
+        <div class="card">
+          <div class="kicker">UK-ready · Clean engineering supply</div>
+          <h1>
+            Screws & Barrels<br/>
+            for <span style="color:var(--brand)">Extrusion</span> and <span style="color:var(--brand)">Injection</span>
+          </h1>
+          <p class="sub">
+            We manufacture <b>single screw</b>, <b>twin screw</b> and <b>barrels/liners</b> built for demanding materials,
+            especially <b>PVC/CPVC</b>. Custom-made per drawing for OEM replacement and performance upgrades.
+          </p>
+
+          <div class="meta">
+            <span class="pill">Diameter: ≥ 20mm</span>
+            <span class="pill">Lead time: 30–45 days</span>
+            <span class="pill">Materials: PVC · CPVC · PP · PE · ABS</span>
+            <span class="pill">Exports: USA · Indonesia · Africa · Taiwan</span>
+          </div>
+
+          <div class="hr"></div>
+
+          <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <a class="btn btn-solid" href="#quote">Request quotation</a>
+            <a class="btn" href="#" id="copyIntro">Copy intro for clients</a>
+          </div>
+
+          <p class="mini">
+            For a fast quote, please share: drawing (PDF/DWG), diameter, L/D, liner/hardfacing option, tolerance, quantity.
+          </p>
+        </div>
+
+        <div class="card soft">
+          <h2>Contact</h2>
+          <div class="item">
+            <b>Email</b>
+            <span><a href="mailto:ciyaoyu8@gmail.com">ciyaoyu8@gmail.com</a></span>
+          </div>
+          <div class="item" style="margin-top:10px;">
+            <b>Lead time</b>
+            <span>30–45 days (depending on diameter, coating, quantity)</span>
+          </div>
+
+          <div class="hr"></div>
+
+          <h2>Core strengths</h2>
+          <div class="item">
+            <b>PVC/CPVC wear & corrosion solutions</b>
+            <span>Bimetallic liners, SKD liners, alloy spray and hardfacing for longer service life.</span>
+          </div>
+          <div class="item" style="margin-top:10px;">
+            <b>Custom per drawing</b>
+            <span>OEM replacement & upgrades with consistent machining quality.</span>
+          </div>
+          <div class="item" style="margin-top:10px;">
+            <b>Inspection-ready supply</b>
+            <span>Typical quality targets available; reports can be provided upon request.</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Products -->
+    <section id="products">
+      <div class="card">
+        <h2>Products</h2>
+        <div class="twocol">
+          <div class="item">
+            <b>Single Screw</b>
+            <span>Extrusion / injection screws. Custom geometry per drawing and application.</span>
+          </div>
+          <div class="item">
+            <b>Twin Screw</b>
+            <span>Parallel / conical twin screw solutions (application-dependent).</span>
+          </div>
+          <div class="item">
+            <b>Barrels</b>
+            <span>Bimetallic liner barrel · SKD liner barrel · Alloy spray barrel.</span>
+          </div>
+          <div class="item">
+            <b>Liners & Sleeves</b>
+            <span>Wear/corrosion solutions for PVC/CPVC. Typical liner thickness 8–12mm.</span>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="item">
+          <b>Typical size range (legacy catalogue)</b>
+          <span>
+            Single extruder screw: Φ15–Φ300 mm · L/D 1:8–1:55 · Twin screw: Φ30–Φ130 · Injection volume: 15g–25000g.
+          </span>
+          <div style="margin-top:10px;"><span class="badge">Customisable per drawing</span></div>
+        </div>
+        <p class="mini">Note: ranges and specifications can be adjusted to match your drawing and application.</p>
+      </div>
+    </section>
+
+    <!-- Quality / Inspection -->
+    <section id="quality">
+      <div class="card">
+        <h2>Quality & Inspection</h2>
+        <p class="mini" style="margin-top:0;">
+          Typical inspection and engineering targets (can be adjusted per project and drawing).
+        </p>
+
+        <table class="qtable" aria-label="Quality and inspection table">
+          <thead>
+            <tr>
+              <th style="width:28%;">Item</th>
+              <th style="width:22%;">Typical Value</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><b>Nitriding depth</b></td>
+              <td>0.6 – 0.8 mm</td>
+              <td>Improves wear resistance and service life</td>
+            </tr>
+            <tr>
+              <td><b>Surface hardness</b></td>
+              <td>900 – 1000 HV</td>
+              <td>After nitriding / coating (application-dependent)</td>
+            </tr>
+            <tr>
+              <td><b>Surface roughness (Ra)</b></td>
+              <td>≤ 0.4 μm</td>
+              <td>Smooth melt flow & reduced wear (typical target)</td>
+            </tr>
+            <tr>
+              <td><b>Bimetallic liner thickness</b></td>
+              <td>8 – 12 mm</td>
+              <td>Depending on diameter and wear/corrosion requirement</td>
+            </tr>
+            <tr>
+              <td><b>Chrome hardness</b></td>
+              <td>≥ 950 HV</td>
+              <td>For chrome-plated surfaces (if specified)</td>
+            </tr>
+            <tr>
+              <td><b>Screw runout</b></td>
+              <td>Controlled & inspected</td>
+              <td>Ensures stable rotation, output consistency and long life</td>
+            </tr>
+            <tr>
+              <td><b>Common steels / liners</b></td>
+              <td>38CrMoAlA · D2 · SKD</td>
+              <td>Selected according to resin, fillers, and operating conditions</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <p class="mini">
+          Inspection reports and material information can be provided upon request.
+        </p>
+      </div>
+    </section>
+
+    <!-- OEM & Applications -->
+    <section id="oem">
+      <div class="card">
+        <h2>OEM Replacement & Applications</h2>
+
+        <div class="twocol">
+          <div class="item">
+            <b>OEM replacement</b>
+            <span>
+              We supply replacement screws and barrels manufactured according to
+              customer drawings or OEM machine models—ideal for spare parts, rebuilds and performance upgrades.
+            </span>
+          </div>
+
+          <div class="item">
+            <b>Custom per drawing</b>
+            <span>
+              Preferred input: PDF/DWG drawing or OEM model details to confirm geometry, tolerance, liner/hardfacing selection and key dimensions.
+            </span>
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <h2>Main applications (UK-relevant)</h2>
+        <div class="twocol">
+          <div class="item">
+            <b>PVC pipe extrusion</b>
+            <span>UPVC pressure pipe · drainage pipe · electrical conduit · general PVC pipe</span>
+          </div>
+          <div class="item">
+            <b>UPVC window & door profiles</b>
+            <span>Construction profiles · window/door extrusion · building systems</span>
+          </div>
+          <div class="item">
+            <b>CPVC processing</b>
+            <span>Corrosion-sensitive applications—liner and surface engineering recommended</span>
+          </div>
+          <div class="item">
+            <b>WPC / SPC boards</b>
+            <span>Wood-plastic composite boards · stone-plastic boards</span>
+          </div>
+          <div class="item">
+            <b>HDPE and pipe extrusion</b>
+            <span>HDPE pipe · corrugated pipe · general plastic pipe</span>
+          </div>
+          <div class="item">
+            <b>Compounding & injection</b>
+            <span>Masterbatch · filled materials · general injection moulding screws</span>
+          </div>
+        </div>
+
+        <p class="mini">
+          PVC and CPVC processing is a major focus due to high wear and corrosion requirements.
+        </p>
+      </div>
+    </section>
+
+    <!-- Auto Gallery -->
+    <section id="gallery">
+      <div class="card">
+        <div class="gallery-top">
+          <div>
+            <h2 style="margin-bottom:4px;">Gallery</h2>
+            <p class="mini" style="margin:0;">
+              Images auto-load from <b>/gallery</b>. Click any image to enlarge.
+            </p>
+          </div>
+          <div class="gallery-note">
+            Naming: <b>gallery/img-001.jpg</b>, <b>img-002.jpg</b> … (jpg/png/webp)
+          </div>
+        </div>
+
+        <div id="galleryGrid" class="gallery" aria-label="Auto gallery grid"></div>
+        <p id="galleryStatus" class="mini"></p>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section id="quote">
+      <div class="card">
+        <h2>Request a quotation</h2>
+        <p class="mini" style="margin-top:0;">This form opens your email app (mailto). Attach drawings (PDF/DWG) in the email.</p>
+
+        <form class="form" onsubmit="return false;">
+          <div class="row2">
+            <div>
+              <label>Company</label>
+              <input id="qCompany" placeholder="Your company name" />
+            </div>
+            <div>
+              <label>Contact</label>
+              <input id="qName" placeholder="Your name" />
+            </div>
+          </div>
+
+          <div class="row2">
+            <div>
+              <label>Email</label>
+              <input id="qEmail" placeholder="name@company.com" />
+            </div>
+            <div>
+              <label>Country</label>
+              <input id="qCountry" placeholder="United Kingdom" />
+            </div>
+          </div>
+
+          <div class="row2">
+            <div>
+              <label>Product</label>
+              <select id="qProduct">
+                <option>Single Screw</option>
+                <option>Twin Screw</option>
+                <option>Barrel</option>
+                <option>Liner / Sleeve</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div>
+              <label>Diameter (mm)</label>
+              <input id="qDia" placeholder="e.g. 45 / 65 / 90 (≥ 20mm)" />
+            </div>
+          </div>
+
+          <div class="row2">
+            <div>
+              <label>Process material</label>
+              <input id="qMat" placeholder="PVC / CPVC / PP / PE / ABS" />
+            </div>
+            <div>
+              <label>Liner / coating</label>
+              <input id="qCoat" placeholder="Bimetallic / SKD / Alloy spray / Hardfacing" />
+            </div>
+          </div>
+
+          <div>
+            <label>Notes (quantity, tolerance, OEM model)</label>
+            <textarea id="qNotes" placeholder="Quantity, OEM brand/model, L/D, tolerance, application details..."></textarea>
+          </div>
+
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px;">
+            <a class="btn btn-solid" href="#" id="sendMail">Generate email</a>
+            <a class="btn" href="#" id="copyReq">Copy request</a>
+          </div>
+
+          <p class="mini" style="margin-top:8px;">
+            Email: <a href="mailto:ciyaoyu8@gmail.com"><b>ciyaoyu8@gmail.com</b></a> · Lead time: 30–45 days
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="foot">
+        <div>© <span id="year"></span> Hongliang Tech</div>
+        <div>Engineering supply for extrusion & injection screws and barrels</div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lb" id="lb">
+    <div class="lb-box" role="dialog" aria-modal="true" aria-label="Image viewer">
+      <div class="lb-top">
+        <b id="lbTitle">Image</b>
+        <div class="x" id="lbClose">✕</div>
+      </div>
+      <img id="lbImg" src="" alt="Expanded view">
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Copied</div>
+
+  <script>
+    const TO = "ciyaoyu8@gmail.com";
+
+    // year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // toast
+    const toast = document.getElementById("toast");
+    function showToast(msg){
+      toast.textContent = msg;
+      toast.style.display = "block";
+      clearTimeout(showToast.t);
+      showToast.t = setTimeout(()=> toast.style.display="none", 1400);
+    }
+
+    // copy intro
+    const intro =
+`Hello,
+
+Hongliang Tech manufactures single screw & twin screw solutions (extrusion/injection) and barrels/liners.
+We support PVC/CPVC/PP/PE/ABS with bimetallic liners, SKD liners, alloy spray and screw hardfacing.
+Lead time is typically 30–45 days. We can quote quickly with drawings (PDF/DWG) or OEM model details.
+
+Best regards,
+Hongliang Tech
+Email: ${TO}`;
+
+    document.getElementById("copyIntro").addEventListener("click", async (e)=>{
+      e.preventDefault();
+      try{ await navigator.clipboard.writeText(intro); showToast("Intro copied"); }
+      catch{ showToast("Copy failed"); }
+    });
+
+    // mail generator
+    function buildEmail(){
+      const company = document.getElementById("qCompany").value.trim() || "[Company]";
+      const name = document.getElementById("qName").value.trim() || "[Name]";
+      const email = document.getElementById("qEmail").value.trim() || "[Email]";
+      const country = document.getElementById("qCountry").value.trim() || "[Country]";
+      const product = document.getElementById("qProduct").value;
+      const dia = document.getElementById("qDia").value.trim() || "N/A";
+      const mat = document.getElementById("qMat").value.trim() || "PVC/CPVC/PP/PE/ABS";
+      const coat = document.getElementById("qCoat").value.trim() || "Bimetallic / SKD / Alloy spray / Hardfacing";
+      const notes = document.getElementById("qNotes").value.trim() || "[Quantity, OEM model, tolerance, L/D, application]";
+
+      const subject = `Quotation Request: ${product} | ${company} | Dia ${dia}mm`;
+      const body =
+`Hello Hongliang Tech,
+
+My name is ${name} from ${company} (${country}).
+Please quote for:
+
+- Product: ${product}
+- Diameter: ${dia} mm
+- Process material: ${mat}
+- Liner / coating: ${coat}
+
+Notes:
+${notes}
+
+Please reply to: ${email}
+
+Best regards,
+${name}
+${company}
+`;
+      return {subject, body};
+    }
+
+    document.getElementById("sendMail").addEventListener("click", (e)=>{
+      e.preventDefault();
+      const {subject, body} = buildEmail();
+      const mailto = `mailto:${encodeURIComponent(TO)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      window.location.href = mailto;
+    });
+
+    document.getElementById("copyReq").addEventListener("click", async (e)=>{
+      e.preventDefault();
+      const {subject, body} = buildEmail();
+      const txt = `Subject: ${subject}\n\n${body}`;
+      try{ await navigator.clipboard.writeText(txt); showToast("Request copied"); }
+      catch{ showToast("Copy failed"); }
+    });
+
+    // Lightbox
+    const lb = document.getElementById("lb");
+    const lbImg = document.getElementById("lbImg");
+    const lbTitle = document.getElementById("lbTitle");
+    const closeBtn = document.getElementById("lbClose");
+
+    function openLB(src, title){
+      lbImg.src = src;
+      lbTitle.textContent = title || "Image";
+      lb.classList.add("open");
+    }
+    function closeLB(){
+      lb.classList.remove("open");
+      lbImg.src = "";
+    }
+    closeBtn.addEventListener("click", closeLB);
+    lb.addEventListener("click", (e)=>{ if(e.target === lb) closeLB(); });
+    document.addEventListener("keydown", (e)=>{ if(e.key === "Escape") closeLB(); });
+
+    // ---- Auto Gallery Loader ----
+    // Put images into /gallery with names like img-001.jpg, img-002.jpg ...
+    const grid = document.getElementById("galleryGrid");
+    const statusEl = document.getElementById("galleryStatus");
+
+    const GALLERY = {
+      folder: "gallery",
+      prefix: "img-",
+      start: 1,
+      max: 300,                 // max images to attempt
+      consecutiveFailStop: 10,   // stop after 10 missing in a row
+      exts: ["jpg","jpeg","png","webp"]
+    };
+
+    function pad3(n){ return String(n).padStart(3,"0"); }
+
+    function makeCard(src, index){
+      const box = document.createElement("div");
+      box.className = "shot";
+      box.dataset.src = src;
+      box.dataset.title = `Gallery image ${index}`;
+
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = `Gallery image ${index}`;
+
+      const cap = document.createElement("div");
+      cap.className = "cap";
+      cap.innerHTML = `<b>Image ${pad3(index)}</b><small>${src.replace(/^.*\//,'')}</small>`;
+
+      box.appendChild(img);
+      box.appendChild(cap);
+
+      box.addEventListener("click", ()=> openLB(src, `Hongliang Tech · Image ${pad3(index)}`));
+      return box;
+    }
+
+    function tryLoad(url){
+      return new Promise((resolve)=>{
+        const img = new Image();
+        img.onload = ()=> resolve(true);
+        img.onerror = ()=> resolve(false);
+        img.src = url;
+      });
+    }
+
+    async function loadGallery(){
+      let loaded = 0;
+      let failStreak = 0;
+
+      statusEl.textContent = "Loading images...";
+
+      for(let i = GALLERY.start; i <= GALLERY.max; i++){
+        let found = false;
+
+        for(const ext of GALLERY.exts){
+          const url = `${GALLERY.folder}/${GALLERY.prefix}${pad3(i)}.${ext}`;
+          // eslint-disable-next-line no-await-in-loop
+          const ok = await tryLoad(url);
+          if(ok){
+            grid.appendChild(makeCard(url, i));
+            loaded++;
+            found = true;
+            failStreak = 0;
+            break;
+          }
+        }
+
+        if(!found){
+          failStreak++;
+          if(failStreak >= GALLERY.consecutiveFailStop) break;
+        }
+      }
+
+      if(loaded === 0){
+        statusEl.textContent = "No images found. Add images to /gallery as img-001.jpg, img-002.jpg ...";
+      }else{
+        statusEl.textContent = `Loaded ${loaded} image(s). Add more images in /gallery to update automatically.`;
+      }
+    }
+
+    loadGallery();
+  </script>
+</body>
+</html>
