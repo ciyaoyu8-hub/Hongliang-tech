@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ciyaoyu8-hub.github.io/Hongliang-tech/sitemap.xml
